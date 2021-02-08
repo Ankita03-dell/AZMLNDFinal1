@@ -24,7 +24,7 @@ The Logistic Regression model with hyperparameters selected through HyperDrive g
 
 **Steps involved in the entry script(train.py):-**
 1. Creation of TabularDataset using TabularDatasetFactory.
-   [dataset used](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
+   [Click here to find the Dataset used](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv)
 2. Cleaning the data - removing rows with missing entries, one hot encoding the categorical data, feature engineering etc.
 3. Splitting the data into train and test sets.
 4. Training the logistic regression model using arguments from the HyperDrive runs.
@@ -40,15 +40,15 @@ The Logistic Regression model with hyperparameters selected through HyperDrive g
 7. Getting the best run id and saving the model from that run.
 8. Saving the model under the workspace for deployment.
 
-**Benefits of the parameter sampler**
+**Benefits of the parameter sampler :**
 Choosing the right parameter sampling method is necessary as well a beneficial step to follow as it can have visible affects on your run time. 
 Parameter sampling means to search the hyperparameter space defined for your model and select the best values of a particular hyperparameter. 
-Azure supports three types of parameter sampling - Random sampling,Grid sampling and Bayesian sampling. 
+Azure supports three types of param eter sampling - Random sampling,Grid sampling and Bayesian sampling. 
 RandomParameterSampling supports discrete and continous hyperparameters. 
 In random sampling, hyperparameter values are chosen randomly, thus saving a lot of computational efforts.
 It can also be used as a starting sampling method as we can use it to do an initial search and then continue with other sampling methods.
 
-**Benefits of the early stopping policy**
+**Benefits of the early stopping policy :**
 An early termination policy is quite helpful when the run becomes exhaustive. 
 It ensures that we don't keep running the experiment for too long and end up wasting resources and time, in order to find what the optimal parameter is. 
 A run is cancelled when the criteria of a specified policy are met. 
@@ -71,7 +71,7 @@ It gave as an accuracy score of 0.9169 i.e 0.9170 (approx) which was slightly be
 **HyperDrive Model**	
 *id* :	HD_7bc7e02e-eba5-466e-82d6-3f887d9c6a9e
 *Accuracy* : 0.9151186315983079
-**AutoML Model**	
+**AutoML Model**	<br/>
 *id* : AutoML_30fca76e-6c1f-416b-b797-fdb3335ce90f_21
 *Accuracy* : 0.9169954476479514
 *AUC_weighted* : 0.9471957199790382
