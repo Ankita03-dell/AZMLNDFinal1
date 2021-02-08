@@ -68,14 +68,14 @@ The model that gave the best results turned out to be VotingEnsembleClassifier t
 It gave as an accuracy score of 0.9169 i.e 0.9170 (approx) which was slightly better than the score achieved using HyperDrive.
 
 ## Pipeline comparison
-**HyperDrive Model**	
-*id* :	HD_7bc7e02e-eba5-466e-82d6-3f887d9c6a9e
+**HyperDrive Model**\
+*id* :	HD_7bc7e02e-eba5-466e-82d6-3f887d9c6a9e\
 *Accuracy* : 0.9151186315983079\
 **AutoML Model**\
-*id* : AutoML_30fca76e-6c1f-416b-b797-fdb3335ce90f_21
-*Accuracy* : 0.9169954476479514
-*AUC_weighted* : 0.9471957199790382
-*Algortithm* : VotingEnsemble
+*id* : AutoML_30fca76e-6c1f-416b-b797-fdb3335ce90f_21\
+*Accuracy* : 0.9169954476479514\
+*AUC_weighted* : 0.9471957199790382\
+*Algortithm* : VotingEnsemble\
 
 The difference in accuracy between the two models is rather trivial and although the HyperDrive model performed better in terms of accuracy.
 I am of the opinion that the AutoML model is actually better because of its AUC_weighted metric which equals to 0.9471957199790382 and is more fit for the highly imbalanced data that we have here. 
