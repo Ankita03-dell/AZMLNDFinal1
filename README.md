@@ -71,7 +71,7 @@ It gave as an accuracy score of 0.9169 i.e 0.9170 (approx) which was slightly be
 **HyperDrive Model**	
 *id* :	HD_7bc7e02e-eba5-466e-82d6-3f887d9c6a9e
 *Accuracy* : 0.9151186315983079
-**AutoML Model**	<br/>
+**AutoML Model<br/>**
 *id* : AutoML_30fca76e-6c1f-416b-b797-fdb3335ce90f_21
 *Accuracy* : 0.9169954476479514
 *AUC_weighted* : 0.9471957199790382
