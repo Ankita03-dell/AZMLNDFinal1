@@ -107,5 +107,5 @@ This is the difference with the Scikit-learn Logistic Regression pipeline, in wh
 
 ## Proof of cluster clean up
 
-**Image of cluster marked for deletion**
-![alt text](file:///Users/demo/Desktop/Deletion_of_compute_target_proof.png)
+**Image of cluster marked for deletion**\
+![Deletion_of_compute_target_proof](https://user-images.githubusercontent.com/55974694/107185490-92cb1f00-6a08-11eb-9d4f-1a37417a2a33.png)
