@@ -1,6 +1,5 @@
 # Optimizing an ML Pipeline in Azure
-**hello
-my name is Ankita
+**hello**
 
 ## Overview
 This project is part of the Udacity Azure ML Nanodegree.
