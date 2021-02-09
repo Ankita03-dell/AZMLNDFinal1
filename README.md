@@ -85,13 +85,13 @@ The model was trained remotely on the compute cluster created in the beginning.
 The model that gave the best results turned out to be VotingEnsembleClassifier that takes the average of the predictions of the base models. 
 It gave as an accuracy score of 0.9169 i.e 0.9170 (approx) which was slightly better than the score achieved using HyperDrive.
 
-**Parameters generated :-**\
-* weights= [0.21428571428571427, 0.07142857142857142, 0.07142857142857142, 0.21428571428571427, 0.2857142857142857, 0.07142857142857142, 0.07142857142857142]
-* min_weight_fraction_leaf=0.0
-* n_estimators=10
-* n_jobs=1
-* flatten_transform=None
-* 'verbose': False
+**Parameters generated :-**
+* *weights* = [0.21428571428571427, 0.07142857142857142, 0.07142857142857142, 0.21428571428571427, 0.2857142857142857, 0.07142857142857142, 0.07142857142857142]
+* *min_weight_fraction_leaf* = 0.0
+* *n_estimators* = 10
+* *n_jobs* = 1
+* *flatten_transform* = None
+* *'verbose'* : False
 
 ## Pipeline comparison
 **HyperDrive Model**\
