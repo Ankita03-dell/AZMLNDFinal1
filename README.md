@@ -48,8 +48,8 @@ RandomParameterSampling supports discrete and continous hyperparameters.
 In random sampling, hyperparameter values are chosen randomly, thus saving a lot of computational efforts.
 It can also be used as a starting sampling method as we can use it to do an initial search and then continue with other sampling methods.
 
-The parameter sampling method chosen for this experimnent is Random Sampling. Randing Sampling supports both discrete and continuous hyperparameters.
-In this experiment,\
+The parameter sampling method chosen for this experimnent is Random Sampling. Randing Sampling supports both discrete and continuous hyperparameters.\
+In this experiment,
 1. **C (inversion of regularization strength)**
    uniform (0.5, 1.0)\
    This returns values uniformly distributed between 0.5 and 1.0
@@ -69,11 +69,11 @@ If the primary metric falls out of the slack_factor, Azure ML terminates the job
 
 The following configuration parameters were specified:
 
-*evaluation_interval*=1
-The policy is applied every other time the training script logs the primary metric.
-*delay_evaluation*=5
-The first policy evaluation is delayed to avoid premature termination.
-*slack_factor*=0.1
+*evaluation_interval*=1\
+The policy is applied every other time the training script logs the primary metric.\
+*delay_evaluation*=5\
+The first policy evaluation is delayed to avoid premature termination.\
+*slack_factor*=0.1\
 Any run whose best metric run is less than (1/(1+0.1)) or 91% of the best performing run will be terminated.
 
 ### AutoML
@@ -91,7 +91,7 @@ min_weight_fraction_leaf=0.0\
 n_estimators=10\
 n_jobs=1\
 flatten_transform=None\
-'verbose': False\
+'verbose': False
 
 ## Pipeline comparison
 **HyperDrive Model**\
