@@ -49,7 +49,7 @@ In random sampling, hyperparameter values are chosen randomly, thus saving a lot
 It can also be used as a starting sampling method as we can use it to do an initial search and then continue with other sampling methods.
 
 The parameter sampling method chosen for this experimnent is Random Sampling. Randing Sampling supports both discrete and continuous hyperparameters.\
-In this experiment,
+In this experiment,following were the parameters :\
 1. **C (inversion of regularization strength)**
    uniform (0.5, 1.0)\
    This returns values uniformly distributed between 0.5 and 1.0
@@ -86,12 +86,12 @@ The model that gave the best results turned out to be VotingEnsembleClassifier t
 It gave as an accuracy score of 0.9169 i.e 0.9170 (approx) which was slightly better than the score achieved using HyperDrive.
 
 **Parameters generated**\
-weights= [0.21428571428571427,0.07142857142857142,0.07142857142857142,0.21428571428571427,0.2857142857142857,0.07142857142857142,0.07142857142857142]\
-min_weight_fraction_leaf=0.0\
-n_estimators=10\
-n_jobs=1\
-flatten_transform=None\
-'verbose': False
+* weights= [0.21428571428571427, 0.07142857142857142, 0.07142857142857142, 0.21428571428571427, 0.2857142857142857, 0.07142857142857142, 0.07142857142857142]\
+* min_weight_fraction_leaf=0.0\
+* n_estimators=10\
+* n_jobs=1\
+* flatten_transform=None\
+* 'verbose': False
 
 ## Pipeline comparison
 **HyperDrive Model**\
