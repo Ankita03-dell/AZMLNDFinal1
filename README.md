@@ -48,6 +48,8 @@ RandomParameterSampling supports discrete and continous hyperparameters.
 In random sampling, hyperparameter values are chosen randomly, thus saving a lot of computational efforts.
 It can also be used as a starting sampling method as we can use it to do an initial search and then continue with other sampling methods.
 
+
+
 **Benefits of the early stopping policy :**\
 An early termination policy is quite helpful when the run becomes exhaustive. 
 It ensures that we don't keep running the experiment for too long and end up wasting resources and time, in order to find what the optimal parameter is. 
